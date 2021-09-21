@@ -1,0 +1,44 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 INSTRUCTIONS\
+\
+1. Mesonic and Baryonic data have been saved in the Data folder. \
+\
+2. Run the Notebook Setup.nb in order to obtain the baryonic mesonic and exotic data to be readable for Mathematica. \
+\
+3. Afterwards you can run either 80%MesonicData.nb or 100%MesonicData.nb, these are the neural networks training over 80% of the mesons and 100% of the mesons. These files provide the outputs needed to generate the plots in the paper. \
+\
+4. The .txt files in the folder are the following: \
+\
+Allmesons_80.txt: 1000 NN predictions for the meson masses in logarithmic scale, after training with only 80% of the mesonic data. \
+\
+TMesons_80.txt: 1000 random sets containing 80% of the mesonic data used for training in each run, contains the measured mass and the predicted NN mass for each particle in each set. \
+\
+VMesons_80.txt: 1000 random sets containing the remaining 20% of the mesonic data used for validation in each run, contains the measured mass and the predicted NN mass foe each particle in each set. \
+\
+Baryons_80.txt: 1000 NN predictions for the baryon spectrum after training the network with 80% of the meson data. \
+\
+Exotics_80.txt: 1000 NN predictions for the baryon spectrum after training the network with 80% of the meson data. \
+\
+Mesons_100.txt: 1000 NN predictions for the meson masses in logarithmic scale\
+\
+Baryons_100.txt: 1000 NN predictions for the baryon spectrum after training the network with 100% of the meson data. \
+\
+Exotics_100.txt: 1000 NN predictions for the baryon spectrum after training the network with 100% of the meson data. \
+\
+W1_100.txt: 1000 NN values for the weight matrix (13x50) in the internal layer of the neural network  after training the network with 100% of the meson data. \
+\
+B1_100.txt: 1000 NN values for the bias vector in the internal layer of the neural network  after training the network with 100% of the meson data. \
+\
+W2_100.txt: 1000 NN values for the weight matrix (50x1) in the output layer of the neural network  after training the network with 100% of the meson data. \
+\
+B1_100.txt: 1000 NN values for the bias output layer of the neural network  after training the network with 100% of the meson data. \
+\
+5. In the file DataForPlots.nb we compile the mesonic, baryonic and exotic data required for plots and tables in the paper. \
+\
+6. Finally the Plots for both Neural Network and Gaussian Process results. \
+}

@@ -16,7 +16,7 @@ produceplots=0; % choose 1 to create plots
 mesoninputs=readmatrix([scriptdirec,'/data/mesoninputs.dat']);
 mesonmasses=readmatrix([scriptdirec,'/data/mMass.dat']);
 
-baryoninputs=readmatrix([scriptdirec,'/data/baryoninputs.dat']);
+baryoninputs=readmatrix([scriptdirec,'/data/baryoninputs    .dat']);
 baryonmasses=readmatrix([scriptdirec,'/data/bMass.dat']);
 
 exinputs=readmatrix([scriptdirec,'/data/exinputs.dat']);
